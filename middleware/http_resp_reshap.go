@@ -3,8 +3,8 @@ package middleware
 import (
 	"errors"
 
-	"github.com/shiningrush/droplet/core"
-	"github.com/shiningrush/droplet/data"
+	"github.com/OnlyPiglet/droplet/core"
+	"github.com/OnlyPiglet/droplet/data"
 )
 
 type HttpRespReshapeOpt struct {

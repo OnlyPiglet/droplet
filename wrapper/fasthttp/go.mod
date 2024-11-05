@@ -1,10 +1,10 @@
-module github.com/shiningrush/droplet/wrapper/fasthttp
+module github.com/OnlyPiglet/droplet/wrapper/fasthttp
 
 go 1.17
 
 require (
 	github.com/fasthttp/router v1.4.11
-	github.com/shiningrush/droplet v0.4.2
+	github.com/OnlyPiglet/droplet latest
 	github.com/valyala/fasthttp v1.38.0
 )
 
@@ -28,4 +28,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-//replace github.com/shiningrush/droplet => ../../
+//replace github.com/OnlyPiglet/droplet => ../../

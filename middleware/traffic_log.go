@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/shiningrush/droplet/core"
-	"github.com/shiningrush/droplet/log"
+	"github.com/OnlyPiglet/droplet/core"
+	"github.com/OnlyPiglet/droplet/log"
 )
 
 type TrafficLogMiddleware struct {

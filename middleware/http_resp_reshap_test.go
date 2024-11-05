@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/shiningrush/droplet/core"
-	"github.com/shiningrush/droplet/data"
+	"github.com/OnlyPiglet/droplet/core"
+	"github.com/OnlyPiglet/droplet/data"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

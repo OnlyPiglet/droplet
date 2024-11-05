@@ -7,8 +7,8 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/shiningrush/droplet/core"
-	"github.com/shiningrush/droplet/data"
+	"github.com/OnlyPiglet/droplet/core"
+	"github.com/OnlyPiglet/droplet/data"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 )

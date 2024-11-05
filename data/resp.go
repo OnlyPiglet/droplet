@@ -53,7 +53,7 @@ var (
 
 type Response struct {
 	Code      int         `json:"code"`
-	Message   string      `json:"message"`
+	Message   string      `json:"msg"`
 	Data      interface{} `json:"data"`
 	RequestID string      `json:"request_id"`
 }

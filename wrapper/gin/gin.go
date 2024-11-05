@@ -1,9 +1,9 @@
 package gin
 
 import (
+	"github.com/OnlyPiglet/droplet/core"
+	"github.com/OnlyPiglet/droplet/wrapper"
 	"github.com/gin-gonic/gin"
-	"github.com/shiningrush/droplet/core"
-	"github.com/shiningrush/droplet/wrapper"
 )
 
 func Wraps(handler core.Handler, opts ...wrapper.SetWrapOpt) func(*gin.Context) {

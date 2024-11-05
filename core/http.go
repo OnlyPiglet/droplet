@@ -1,7 +1,7 @@
 package core
 
 import (
-	"github.com/shiningrush/droplet/data"
+	"github.com/OnlyPiglet/droplet/data"
 )
 
 type (

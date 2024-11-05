@@ -1,9 +1,9 @@
 package gorestful
 
 import (
+	"github.com/OnlyPiglet/droplet/core"
+	"github.com/OnlyPiglet/droplet/wrapper"
 	"github.com/emicklei/go-restful/v3"
-	"github.com/shiningrush/droplet/core"
-	"github.com/shiningrush/droplet/wrapper"
 )
 
 func Wraps(handler core.Handler, opts ...wrapper.SetWrapOpt) func(*restful.Request, *restful.Response) {

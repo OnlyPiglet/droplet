@@ -5,7 +5,7 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/shiningrush/droplet/core"
+	"github.com/OnlyPiglet/droplet/core"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

@@ -4,11 +4,11 @@ import (
 	"net/http"
 	"reflect"
 
+	"github.com/OnlyPiglet/droplet/core"
+	"github.com/OnlyPiglet/droplet/wrapper"
 	"github.com/emicklei/go-restful/v3"
-	"github.com/shiningrush/droplet/core"
-	"github.com/shiningrush/droplet/wrapper"
 
-	rwrap "github.com/shiningrush/droplet/wrapper/gorestful"
+	rwrap "github.com/OnlyPiglet/droplet/wrapper/gorestful"
 )
 
 func main() {

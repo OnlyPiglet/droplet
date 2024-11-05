@@ -3,7 +3,7 @@ package middleware
 import (
 	"net/http"
 
-	"github.com/shiningrush/droplet/core"
+	"github.com/OnlyPiglet/droplet/core"
 )
 
 type HttpInfoInjectorMiddleware struct {

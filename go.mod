@@ -1,4 +1,4 @@
-module github.com/shiningrush/droplet
+module github.com/OnlyPiglet/droplet
 
 go 1.14
 
